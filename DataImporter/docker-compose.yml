@@ -1,0 +1,19 @@
+version: "3"
+services:
+    web:
+        build:
+          context: .
+          dockerfile: DataImporter/Dockerfile
+        image: dataimporterweb
+        container_name: web
+        restart: unless-stopped
+        tty: true
+        env_file: 
+            - web.env
+        ports:
+            - "8000:80"
+        volumes:
+            - firstdemo-data:/app/Logs
+volumes:
+     firstdemo-data: 
+        external: true

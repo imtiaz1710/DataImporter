@@ -1,0 +1,147 @@
+﻿@model DataImporter.Models.ContactModels.ContactListModel;
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+}
+
+@section Scripts
+{
+    <script src="/admin/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+    <script>
+        $(function () {
+            $('#excelTable').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "searching": true,
+                "ordering": true,
+                "info": false,
+                "autoWidth": false,
+                "responsive": true,
+            });
+        });
+    </script>
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Preview</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Preview</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-info">
+                    <div class="card-header">
+                        <h3 class="card-title">Load an Excel Group</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <ol style="color:red">@TempData["ErrorMessage"]</ol>
+                    <form enctype="multipart/form-data" class="form-horizontal" asp-antiforgery="true">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label>Select a Group:</label>
+                                    <select asp-for="GroupId" class="form-control js-example-basic-single" style="width: 110%;" data-select2-id="1" tabindex="-1" aria-hidden="true">
+                                        @foreach (var item in Model.Groups)
+                                        {
+                                            <option value=@item.Id>@item.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            @*<button type="submit" class="btn btn-danger">Load</button>*@
+                            <button type="submit" method="post" class="btn btn-danger" asp-controller="Contact" asp-action="Load">Load</button>
+                        </div><!-- /.card-footer -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Table Data</h3>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <table id="excelTable" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                @foreach (var column in Model.TableFields)
+                                {
+                                    <th>
+                                        @column.FieldName
+                                    </th>
+                                }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                @foreach (var row in Model.ExcelDatas)
+                                {
+                                    <tr>
+                                        @foreach (var column in Model.TableFields)
+                                        {
+                                            <td>
+                                                @foreach (var col in row.ExcelFieldDatas)
+                                                {
+                                                    @if (column.FieldName == col.Field)
+                                                    {
+                                                        @col.Value
+                                                    }
+                                                }
+                                            </td>
+                                        }
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                @foreach (var column in Model.TableFields)
+                                {
+                                    <th>
+                                        @column.FieldName
+                                    </th>
+                                }
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+<!-- /.content -->

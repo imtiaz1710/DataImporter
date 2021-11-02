@@ -1,0 +1,284 @@
+[10/07/21 00:17:34 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[10/07/21 00:17:34 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 00:17:34 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[10/07/21 00:17:34 [Information] DataImporter.Controllers.AccountController User logged out.
+[10/07/21 00:17:48 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 00:17:48 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 00:18:01 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 00:18:01 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 06:19:59 [Information]  Application Starting up
+[10/07/21 06:20:23 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 06:20:24 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 06:20:50 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 06:20:50 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 07:06:01 [Information]  Application Starting up
+[10/07/21 07:20:35 [Information]  Application Starting up
+[10/07/21 07:24:18 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[10/07/21 07:24:18 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:24:18 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[10/07/21 07:24:18 [Information] DataImporter.Controllers.AccountController User logged out.
+[10/07/21 07:26:30 [Information]  Application Starting up
+[10/07/21 07:26:46 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 07:26:47 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:27:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 07:27:16 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 07:28:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[10/07/21 07:28:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:28:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[10/07/21 07:28:30 [Information] DataImporter.Controllers.AccountController User logged out.
+[10/07/21 07:30:19 [Information]  Application Starting up
+[10/07/21 07:30:29 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 07:30:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:30:52 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 07:30:52 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 07:31:00 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[10/07/21 07:31:00 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:31:00 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[10/07/21 07:31:00 [Information] DataImporter.Controllers.AccountController User logged out.
+[10/07/21 07:31:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 07:31:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:31:39 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 07:31:39 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 07:33:09 [Information]  Application Starting up
+[10/07/21 07:33:27 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[10/07/21 07:33:27 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:33:27 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[10/07/21 07:33:27 [Information] DataImporter.Controllers.AccountController User logged out.
+[10/07/21 07:33:27 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 07:33:43 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 07:33:43 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 07:58:07 [Information]  Application Starting up
+[10/07/21 08:02:24 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Groups_AspNetUsers_ApplicationUserId". The conflict occurred in database "DataImporter", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:913b9fe4-c304-4add-9d2b-2de9236d4b2a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DataImporter.Data.UnitOfWork.Save() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Data\UnitOfWork.cs:line 17
+   at DataImporter.Excel.Services.GroupService.UpdateGroup(Group group) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\GroupService.cs:line 92
+   at DataImporter.Models.GroupModels.EditGroupModel.Update() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\GroupModels\EditGroupModel.cs:line 43
+   at DataImporter.Controllers.GroupController.Edit(EditGroupModel model) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\GroupController.cs:line 84
+   at lambda_method810(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/07/21 08:02:32 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Groups_AspNetUsers_ApplicationUserId". The conflict occurred in database "DataImporter", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:913b9fe4-c304-4add-9d2b-2de9236d4b2a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DataImporter.Data.UnitOfWork.Save() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Data\UnitOfWork.cs:line 17
+   at DataImporter.Excel.Services.GroupService.UpdateGroup(Group group) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\GroupService.cs:line 92
+   at DataImporter.Models.GroupModels.EditGroupModel.Update() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\GroupModels\EditGroupModel.cs:line 43
+   at DataImporter.Controllers.GroupController.Edit(EditGroupModel model) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\GroupController.cs:line 84
+   at lambda_method810(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/07/21 08:02:34 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/07/21 08:02:34 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/07/21 08:03:25 [Information]  Application Starting up
+[10/07/21 08:05:35 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Groups_AspNetUsers_ApplicationUserId". The conflict occurred in database "DataImporter", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:24262d71-4b96-489f-af62-85b7aad7a547
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DataImporter.Data.UnitOfWork.Save() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Data\UnitOfWork.cs:line 17
+   at DataImporter.Excel.Services.GroupService.UpdateGroup(Group group) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\GroupService.cs:line 92
+   at DataImporter.Models.GroupModels.EditGroupModel.Update() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\GroupModels\EditGroupModel.cs:line 43
+   at DataImporter.Controllers.GroupController.Edit(EditGroupModel model) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\GroupController.cs:line 84
+   at lambda_method816(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/07/21 08:05:40 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/07/21 08:13:17 [Information]  Application Starting up
+[10/07/21 08:24:14 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[10/07/21 08:24:14 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 08:24:14 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[10/07/21 08:24:14 [Information] DataImporter.Controllers.AccountController User logged out.
+[10/07/21 08:24:14 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 08:24:45 [Information] DataImporter.Controllers.AccountController User created a new account with password.
+[10/07/21 08:24:51 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 08:24:58 [Information] DataImporter.Controllers.AccountController User created a new account with password.
+[10/07/21 08:24:58 [Warning] Microsoft.AspNetCore.Identity.UserManager User validation failed: "DuplicateUserName".
+[10/07/21 08:25:01 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 08:26:44 [Information] DataImporter.Controllers.AccountController User created a new account with password.
+[10/07/21 08:26:47 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 08:39:09 [Information]  Application Starting up
+[10/07/21 08:39:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 08:39:17 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 08:39:50 [Information] DataImporter.Controllers.AccountController User created a new account with password.
+[10/07/21 08:40:04 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 08:41:06 [Warning] Microsoft.AspNetCore.Identity.SignInManager User cannot sign in without a confirmed email.
+[10/07/21 08:41:16 [Warning] Microsoft.AspNetCore.Identity.SignInManager User cannot sign in without a confirmed email.
+[10/07/21 08:41:40 [Warning] Microsoft.AspNetCore.Identity.SignInManager User cannot sign in without a confirmed email.
+[10/07/21 08:44:17 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 08:44:32 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 08:44:32 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 08:58:53 [Information]  Application Starting up
+[10/07/21 08:58:59 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 08:58:59 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 09:00:34 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 09:00:34 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 09:03:28 [Information]  Application Starting up
+[10/07/21 09:03:34 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/07/21 09:03:34 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/07/21 09:03:50 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/07/21 09:03:50 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/07/21 09:15:46 [Information]  Application Starting up

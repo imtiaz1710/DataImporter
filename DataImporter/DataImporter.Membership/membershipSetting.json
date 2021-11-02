@@ -1,0 +1,14 @@
+{
+  "Email": {
+    "From": "imtiazmehedidemo@gmail.com",
+    "password": "imtiazdemo",
+    "enableSsl": false,
+    "isBodyHtml": true,
+    "mailServer": "smtp.gmail.com",
+    "smtpPort": 587,
+    "outputTemplate": "[{Timestamp:HH:mm:ss.fff} {Level:u3}] {Message:lj} <s:{SourceContext}>{NewLine}{Exception}",
+    "batchPostingLimit": 10,
+    "periodMinutes": 5,
+    "restrictedToMinimumLevel": "Verbose"
+  }
+}

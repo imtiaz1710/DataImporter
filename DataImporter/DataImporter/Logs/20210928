@@ -1,0 +1,97 @@
+[09/28/21 14:31:26 [Information]  Application Starting up
+[09/28/21 14:34:32 [Information]  Application Starting up
+[09/28/21 14:36:46 [Information]  Application Starting up
+[09/28/21 21:25:28 [Information]  Application Starting up
+[09/28/21 21:25:33 [Fatal]  Application start-up failed
+Autofac.Core.Activators.Reflection.NoConstructorsFoundException: No accessible constructors were found for the type 'DataImporter.Excel.Repositories.ITableFieldRepository'.
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.GetDefaultPublicConstructors(Type type)
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.FindConstructors(Type targetType)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ConfigurePipeline(IComponentRegistryServices componentRegistryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices)
+   at Autofac.Core.Registration.ComponentRegistryBuilder.Build()
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DataImporter.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Program.cs:line 31
+[09/28/21 21:29:36 [Information]  Application Starting up
+[09/28/21 21:29:40 [Fatal]  Application start-up failed
+Autofac.Core.Activators.Reflection.NoConstructorsFoundException: No accessible constructors were found for the type 'DataImporter.Excel.Repositories.ITableFieldRepository'.
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.GetDefaultPublicConstructors(Type type)
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.FindConstructors(Type targetType)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ConfigurePipeline(IComponentRegistryServices componentRegistryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices)
+   at Autofac.Core.Registration.ComponentRegistryBuilder.Build()
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DataImporter.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Program.cs:line 31
+[09/28/21 21:30:48 [Information]  Application Starting up
+[09/28/21 21:30:51 [Fatal]  Application start-up failed
+Autofac.Core.Activators.Reflection.NoConstructorsFoundException: No accessible constructors were found for the type 'DataImporter.Excel.Repositories.ITableFieldRepository'.
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.GetDefaultPublicConstructors(Type type)
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.FindConstructors(Type targetType)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ConfigurePipeline(IComponentRegistryServices componentRegistryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices)
+   at Autofac.Core.Registration.ComponentRegistryBuilder.Build()
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DataImporter.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Program.cs:line 31
+[09/28/21 22:22:31 [Information]  Application Starting up
+[09/28/21 22:23:46 [Fatal]  Application start-up failed
+Autofac.Core.Activators.Reflection.NoConstructorsFoundException: No accessible constructors were found for the type 'DataImporter.Excel.Repositories.ITableFieldRepository'.
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.GetDefaultPublicConstructors(Type type)
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.FindConstructors(Type targetType)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ConfigurePipeline(IComponentRegistryServices componentRegistryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices)
+   at Autofac.Core.Registration.ComponentRegistryBuilder.Build()
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DataImporter.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Program.cs:line 31
+[09/28/21 22:28:11 [Information]  Application Starting up
+[09/28/21 22:28:19 [Fatal]  Application start-up failed
+Autofac.Core.Activators.Reflection.NoConstructorsFoundException: No accessible constructors were found for the type 'DataImporter.Excel.Repositories.ITableFieldRepository'.
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.GetDefaultPublicConstructors(Type type)
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.FindConstructors(Type targetType)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ConfigurePipeline(IComponentRegistryServices componentRegistryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices)
+   at Autofac.Core.Registration.ComponentRegistryBuilder.Build()
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DataImporter.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Program.cs:line 31
+[09/28/21 22:36:33 [Information]  Application Starting up
+[09/28/21 22:36:40 [Fatal]  Application start-up failed
+Autofac.Core.Activators.Reflection.NoConstructorsFoundException: No accessible constructors were found for the type 'DataImporter.Excel.Repositories.ITableFieldRepository'.
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.GetDefaultPublicConstructors(Type type)
+   at Autofac.Core.Activators.Reflection.DefaultConstructorFinder.FindConstructors(Type targetType)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ConfigurePipeline(IComponentRegistryServices componentRegistryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices, IResolvePipelineBuilder pipelineBuilder)
+   at Autofac.Core.Registration.ComponentRegistration.BuildResolvePipeline(IComponentRegistryServices registryServices)
+   at Autofac.Core.Registration.ComponentRegistryBuilder.Build()
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DataImporter.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Program.cs:line 31
+[09/28/21 22:42:55 [Information]  Application Starting up
+[09/28/21 22:43:48 [Information]  Application Starting up
+[09/28/21 23:10:40 [Information]  Application Starting up
+[09/28/21 23:19:59 [Information]  Application Starting up

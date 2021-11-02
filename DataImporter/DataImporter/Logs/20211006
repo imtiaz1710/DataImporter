@@ -1,0 +1,451 @@
+[10/06/21 06:36:28 [Information]  Application Starting up
+[10/06/21 06:37:59 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 06:38:02 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 06:38:25 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 06:38:25 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 06:50:56 [Information]  Application Starting up
+[10/06/21 06:51:32 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 06:51:35 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 06:51:52 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 06:51:52 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 09:37:46 [Information]  Application Starting up
+[10/06/21 09:38:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 09:38:17 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 09:38:38 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 09:38:38 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 09:48:49 [Information]  Application Starting up
+[10/06/21 09:49:04 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 09:49:24 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 09:49:24 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 10:05:50 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataImporter.Models.GroupModels.EditGroupModel.LoadModelData(Int32 id) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\GroupModels\EditGroupModel.cs:line 32
+   at DataImporter.Controllers.GroupController.Edit(Int32 id) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\GroupController.cs:line 72
+   at lambda_method954(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 10:05:52 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 10:08:15 [Information]  Application Starting up
+[10/06/21 10:15:34 [Information]  Application Starting up
+[10/06/21 10:22:13 [Information]  Application Starting up
+[10/06/21 10:22:37 [Error] DataImporter.Controllers.GroupController Create Group Failed
+System.Data.DuplicateNameException: Group title already exists
+   at DataImporter.Excel.Services.GroupService.CreateGroup(Group group) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\GroupService.cs:line 48
+   at DataImporter.Models.GroupModels.CreateGroupModel.CreateGroup() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\GroupModels\CreateGroupModel.cs:line 38
+   at DataImporter.Controllers.GroupController.Create(CreateGroupModel model) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\GroupController.cs:line 57
+[10/06/21 10:49:26 [Information]  Application Starting up
+[10/06/21 11:34:05 [Information]  Application Starting up
+[10/06/21 11:34:20 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 11:34:20 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 11:34:35 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 11:34:35 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 11:44:21 [Information]  Application Starting up
+[10/06/21 11:44:42 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 11:44:42 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 11:45:01 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 11:45:01 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 12:07:53 [Information]  Application Starting up
+[10/06/21 13:39:30 [Information]  Application Starting up
+[10/06/21 13:39:51 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 13:39:51 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 13:40:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 13:40:30 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 14:12:42 [Information]  Application Starting up
+[10/06/21 14:13:06 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 14:13:07 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 14:13:50 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 14:13:50 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 14:45:59 [Information]  Application Starting up
+[10/06/21 14:46:15 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 14:46:15 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 14:46:48 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 14:46:48 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 14:57:23 [Information]  Application Starting up
+[10/06/21 14:59:13 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 14:59:13 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 14:59:52 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 15:00:22 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 15:00:22 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 15:10:05 [Information]  Application Starting up
+[10/06/21 15:12:40 [Information]  Application Starting up
+[10/06/21 15:14:29 [Information]  Application Starting up
+[10/06/21 15:23:51 [Information]  Application Starting up
+[10/06/21 15:40:10 [Information]  Application Starting up
+[10/06/21 15:50:11 [Information]  Application Starting up
+[10/06/21 16:08:43 [Information]  Application Starting up
+[10/06/21 16:21:54 [Information]  Application Starting up
+[10/06/21 16:22:31 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'DataImporter.Models.ExportModels.ExportHistoryModel', but this ViewDataDictionary instance requires a model item of type 'DataImporter.Models.GroupModels.GroupListModel'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method592(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 16:22:35 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 16:55:45 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 16:55:45 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 16:56:13 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 16:56:13 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 17:02:26 [Information]  Application Starting up
+[10/06/21 17:11:17 [Information]  Application Starting up
+[10/06/21 17:21:51 [Information]  Application Starting up
+[10/06/21 17:28:37 [Information]  Application Starting up
+[10/06/21 18:15:49 [Information]  Application Starting up
+[10/06/21 18:19:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 18:19:43 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 18:20:03 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 18:20:03 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 18:21:29 [Information]  Application Starting up
+[10/06/21 18:23:17 [Information]  Application Starting up
+[10/06/21 18:25:59 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataImporter.Controllers.ExportController.Download(Int32 id) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\ExportController.cs:line 90
+   at lambda_method713(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 18:26:03 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 18:26:10 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataImporter.Controllers.ExportController.Download(Int32 id) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\ExportController.cs:line 90
+   at lambda_method713(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 18:26:10 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 18:27:33 [Information]  Application Starting up
+[10/06/21 18:29:00 [Information]  Application Starting up
+[10/06/21 18:30:43 [Information]  Application Starting up
+[10/06/21 18:37:52 [Information]  Application Starting up
+[10/06/21 18:39:30 [Information]  Application Starting up
+[10/06/21 19:31:51 [Information]  Application Starting up
+[10/06/21 19:31:57 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 19:31:57 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 19:32:14 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 19:32:14 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 19:56:45 [Information]  Application Starting up
+[10/06/21 20:31:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 20:31:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 20:32:07 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 20:32:07 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 20:39:56 [Information]  Application Starting up
+[10/06/21 20:42:52 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DataImporter.Models.DataTablesAjaxRequestModel.ReadValues(IEnumerable`1 requestValues, String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 106
+   at DataImporter.Models.DataTablesAjaxRequestModel.GetSortText(String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 83
+   at DataImporter.Models.ExportModels.ExportHistoryModel.GetExports(DataTablesAjaxRequestModel tableModel) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\ExportModels\ExportHistoryModel.cs:line 36
+   at DataImporter.Controllers.ExportController.GetExportData() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\ExportController.cs:line 81
+   at lambda_method614(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 20:42:59 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 20:45:07 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DataImporter.Models.DataTablesAjaxRequestModel.ReadValues(IEnumerable`1 requestValues, String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 106
+   at DataImporter.Models.DataTablesAjaxRequestModel.GetSortText(String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 83
+   at DataImporter.Models.ExportModels.ExportHistoryModel.GetExports(DataTablesAjaxRequestModel tableModel) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\ExportModels\ExportHistoryModel.cs:line 36
+   at DataImporter.Controllers.ExportController.GetExportData() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\ExportController.cs:line 81
+   at lambda_method614(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 20:45:10 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 20:45:34 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DataImporter.Models.DataTablesAjaxRequestModel.ReadValues(IEnumerable`1 requestValues, String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 106
+   at DataImporter.Models.DataTablesAjaxRequestModel.GetSortText(String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 83
+   at DataImporter.Models.ExportModels.ExportHistoryModel.GetExports(DataTablesAjaxRequestModel tableModel) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\ExportModels\ExportHistoryModel.cs:line 36
+   at DataImporter.Controllers.ExportController.GetExportData() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\ExportController.cs:line 81
+   at lambda_method614(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 20:45:36 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 20:49:31 [Information]  Application Starting up
+[10/06/21 20:52:57 [Information]  Application Starting up
+[10/06/21 20:54:51 [Information]  Application Starting up
+[10/06/21 20:57:31 [Information]  Application Starting up
+[10/06/21 20:58:54 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DataImporter.Models.DataTablesAjaxRequestModel.ReadValues(IEnumerable`1 requestValues, String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 106
+   at DataImporter.Models.DataTablesAjaxRequestModel.GetSortText(String[] columnNames) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\DataTablesAjaxRequestModel.cs:line 83
+   at DataImporter.Models.ExportModels.ExportHistoryModel.GetExports(DataTablesAjaxRequestModel tableModel) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Models\ExportModels\ExportHistoryModel.cs:line 36
+   at DataImporter.Controllers.ExportController.GetExportData() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter\Controllers\ExportController.cs:line 81
+   at lambda_method614(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 20:58:58 [Error] Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+[10/06/21 20:59:12 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request.
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Reflection.Metadata.Ecma335.MetadataBuilder.SetCapacity(TableIndex table, Int32 rowCount)
+   at Microsoft.Cci.MetadataWriter.PopulateMethodImplTableRows()
+   at Microsoft.Cci.MetadataWriter.PopulateTypeSystemTables(Int32[] methodBodyOffsets, BlobBuilder mappedFieldDataWriter, BlobBuilder resourceWriter, BlobBuilder dynamicAnalysisDataOpt, Blob& mvidFixup)
+   at Microsoft.Cci.MetadataWriter.BuildMetadataAndIL(PdbWriter nativePdbWriterOpt, BlobBuilder ilBuilder, BlobBuilder mappedFieldDataBuilder, BlobBuilder managedResourceDataBuilder, Blob& mvidFixup, Blob& mvidStringFixup)
+   at Microsoft.Cci.PeWriter.WritePeToStream(EmitContext context, CommonMessageProvider messageProvider, Func`1 getPeStream, Func`1 getPortablePdbStreamOpt, PdbWriter nativePdbWriterOpt, String pdbPathOpt, Boolean metadataOnly, Boolean isDeterministic, Boolean emitTestCoverageData, Nullable`1 privateKeyOpt, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.Compilation.SerializePeToStream(CommonPEModuleBuilder moduleBeingBuilt, DiagnosticBag metadataDiagnostics, CommonMessageProvider messageProvider, Func`1 getPeStream, Func`1 getMetadataPeStreamOpt, Func`1 getPortablePdbStreamOpt, PdbWriter nativePdbWriterOpt, String pdbPathOpt, Boolean metadataOnly, Boolean includePrivateMembers, Boolean isDeterministic, Boolean emitTestCoverageData, Nullable`1 privateKeyOpt, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.Compilation.SerializeToPeStream(CommonPEModuleBuilder moduleBeingBuilt, EmitStreamProvider peStreamProvider, EmitStreamProvider metadataPEStreamProvider, EmitStreamProvider pdbStreamProvider, Func`2 testSymWriterFactory, DiagnosticBag diagnostics, EmitOptions emitOptions, Nullable`1 privateKeyOpt, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.Compilation.Emit(Stream peStream, Stream metadataPEStream, Stream pdbStream, Stream xmlDocumentationStream, Stream win32Resources, IEnumerable`1 manifestResources, EmitOptions options, IMethodSymbol debugEntryPoint, Stream sourceLinkStream, IEnumerable`1 embeddedTexts, CompilationTestData testData, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.Compilation.Emit(Stream peStream, Stream pdbStream, Stream xmlDocumentationStream, Stream win32Resources, IEnumerable`1 manifestResources, EmitOptions options, IMethodSymbol debugEntryPoint, Stream sourceLinkStream, IEnumerable`1 embeddedTexts, Stream metadataPEStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler.OnCacheMiss(String normalizedPath)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10/06/21 21:00:02 [Information]  Application Starting up
+[10/06/21 21:08:20 [Information]  Application Starting up
+[10/06/21 21:16:50 [Information]  Application Starting up
+[10/06/21 23:18:29 [Information]  Application Starting up
+[10/06/21 23:21:39 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[10/06/21 23:21:42 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[10/06/21 23:22:05 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[10/06/21 23:22:05 [Information] DataImporter.Controllers.AccountController User logged in.
+[10/06/21 23:26:17 [Information]  Application Starting up
+[10/06/21 23:42:22 [Information]  Application Starting up

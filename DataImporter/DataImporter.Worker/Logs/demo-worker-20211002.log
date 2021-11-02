@@ -1,0 +1,122 @@
+2021-10-02 06:16:11.356 +06:00 [INF] Application Starting up
+2021-10-02 06:16:53.982 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_ExcelFieldDatas_ExcelDatas_ExcelDataId". The conflict occurred in database "DataImporter", table "dbo.ExcelDatas", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:c30c591f-c03b-43dd-9e25-3ef1cfe97000
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DataImporter.Data.UnitOfWork.Save() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Data\UnitOfWork.cs:line 17
+   at DataImporter.Excel.Services.ExcelFieldDataService.CreateExcelFieldData(ExcelFieldData excelFieldData) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\ExcelFieldDataService.cs:line 51
+   at DataImporter.Worker.Models.ImportDatabaseModel.UploadPendingFileToDb() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Models\ImportDatabaseModel.cs:line 79
+   at DataImporter.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Worker.cs:line 29
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at DataImporter.Worker.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Program.cs:line 40
+2021-10-02 06:20:12.865 +06:00 [INF] Application Starting up
+2021-10-02 06:30:06.865 +06:00 [INF] Application Starting up
+2021-10-02 07:05:40.974 +06:00 [INF] Application Starting up
+2021-10-02 07:07:40.497 +06:00 [INF] Application Starting up
+2021-10-02 07:09:20.429 +06:00 [INF] Application Starting up
+2021-10-02 07:09:42.958 +06:00 [INF] Worker running at: "2021-10-02T07:09:42.9493572+06:00"
+2021-10-02 07:10:04.655 +06:00 [INF] Worker running at: "2021-10-02T07:10:04.6552716+06:00"
+2021-10-02 07:10:14.709 +06:00 [INF] Worker running at: "2021-10-02T07:10:14.7090907+06:00"
+2021-10-02 07:10:24.761 +06:00 [INF] Worker running at: "2021-10-02T07:10:24.7618178+06:00"
+2021-10-02 07:10:34.853 +06:00 [INF] Worker running at: "2021-10-02T07:10:34.8536160+06:00"
+2021-10-02 07:10:44.891 +06:00 [INF] Worker running at: "2021-10-02T07:10:44.8910057+06:00"
+2021-10-02 07:10:54.935 +06:00 [INF] Worker running at: "2021-10-02T07:10:54.9354200+06:00"
+2021-10-02 07:11:05.504 +06:00 [INF] Worker running at: "2021-10-02T07:11:05.5039892+06:00"
+2021-10-02 12:02:18.687 +06:00 [INF] Application Starting up
+2021-10-02 12:02:27.944 +06:00 [FTL] Application start-up failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Import -> Import
+DataImporter.Excel.BusinessObjects.Import -> DataImporter.Excel.Entities.Import
+   at lambda_method285(Closure , Import , Import , ResolutionContext )
+   at DataImporter.Excel.Services.ImportService.UpdateImport(Import import) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\ImportService.cs:line 119
+   at DataImporter.Worker.Models.PendingImportDatabaseModel.ChangePandingStatus() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Models\PendingImportDatabaseModel.cs:line 103
+   at DataImporter.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Worker.cs:line 33
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at DataImporter.Worker.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Program.cs:line 40
+2021-10-02 12:04:48.359 +06:00 [INF] Application Starting up
+2021-10-02 12:04:53.948 +06:00 [FTL] Application start-up failed
+System.IO.FileNotFoundException: Could not find file 'G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\UploadFile\2417505f-04e5-45eb-864c-d59a2efe254b_Untitled spreadsheet.xlsx'.
+File name: 'G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\UploadFile\2417505f-04e5-45eb-864c-d59a2efe254b_Untitled spreadsheet.xlsx'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook.Load(String file)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file, XLEventTracking eventTracking)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at DataImporter.Worker.Models.PendingImportDatabaseModel.UploadPendingFileToDb() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Models\PendingImportDatabaseModel.cs:line 46
+   at DataImporter.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Worker.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at DataImporter.Worker.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Program.cs:line 40
+2021-10-02 12:15:52.769 +06:00 [INF] Application Starting up
+2021-10-02 12:15:58.456 +06:00 [FTL] Application start-up failed
+System.IO.FileNotFoundException: Could not find file 'G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\UploadFile\2417505f-04e5-45eb-864c-d59a2efe254b_Untitled spreadsheet.xlsx'.
+File name: 'G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\UploadFile\2417505f-04e5-45eb-864c-d59a2efe254b_Untitled spreadsheet.xlsx'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.OpenXmlPackage.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook.Load(String file)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file, XLEventTracking eventTracking)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at DataImporter.Worker.Models.PendingImportDatabaseModel.UploadPendingFileToDb() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Models\PendingImportDatabaseModel.cs:line 46
+   at DataImporter.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Worker.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at DataImporter.Worker.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Program.cs:line 40
+2021-10-02 12:16:20.028 +06:00 [INF] Application Starting up
+2021-10-02 12:21:17.599 +06:00 [INF] Application Starting up
+2021-10-02 12:21:38.621 +06:00 [INF] Worker running at: "2021-10-02T12:21:38.6103300+06:00"
+2021-10-02 12:21:54.477 +06:00 [INF] Worker running at: "2021-10-02T12:21:54.4771422+06:00"

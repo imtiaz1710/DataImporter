@@ -1,0 +1,72 @@
+﻿@model DataImporter.Models.ContactModels.ContactListModel
+@{
+    ViewData["Title"] = "Create";
+}
+@section Scripts{
+    <script type="text/javascript">
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+        $(document).ready(function () {
+            $('.js-example-basic-single').select2();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Show Contacts</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Excel Data</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-info">
+                    <div class="card-header">
+                        <h3 class="card-title">Load an Excel Group</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <ol style="color:red">@TempData["ErrorMessage"]</ol>
+                    <form enctype="multipart/form-data" class="form-horizontal" asp-antiforgery="true">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label>Select a Group:</label>
+                                    <select asp-for="GroupId" class="form-control js-example-basic-single" style="width: 110%;" data-select2-id="1" tabindex="-1" aria-hidden="true">
+                                        @foreach (var item in Model.Groups)
+                                        {
+                                            <option value=@item.Id>@item.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            @*<button type="submit" class="btn btn-danger">Load</button>*@
+                            <button type="submit" method="post" asp-controller="Contact" asp-action="Load" class="btn btn-danger">Load</button>
+                        </div><!-- /.card-footer -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

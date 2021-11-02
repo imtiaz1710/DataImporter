@@ -1,0 +1,21 @@
+2021-10-03 14:49:00.003 +06:00 [INF] Application Starting up
+2021-10-03 14:49:19.070 +06:00 [FTL] Application start-up failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Export -> Export
+DataImporter.Excel.BusinessObjects.Export -> DataImporter.Excel.Entities.Export
+   at lambda_method137(Closure , Export , Export , ResolutionContext )
+   at DataImporter.Excel.Services.ExportService.UpdateExport(Export export) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Excel\Services\ExportService.cs:line 98
+   at DataImporter.Worker.Models.PendingExportDatabaseModel.ChangePandingStatus(Export export) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Models\PendingExportDatabaseModel.cs:line 77
+   at DataImporter.Worker.Models.PendingExportDatabaseModel.SendPendingMail() in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Models\PendingExportDatabaseModel.cs:line 70
+   at DataImporter.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Worker.cs:line 37
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at DataImporter.Worker.Program.Main(String[] args) in G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Worker\Program.cs:line 40
+2021-10-03 15:01:44.840 +06:00 [INF] Application Starting up
+2021-10-03 15:02:45.727 +06:00 [INF] Worker running at: "2021-10-03T15:02:45.7189516+06:00"
+2021-10-03 15:05:43.204 +06:00 [INF] Application Starting up
+2021-10-03 15:06:01.862 +06:00 [INF] Worker running at: "2021-10-03T15:06:01.8549210+06:00"
