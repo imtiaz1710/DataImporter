@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj": {}
+    "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj": {}
   },
   "projects": {
-    "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj": {
+    "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj",
+        "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj",
         "projectName": "DataImporter.Membership",
-        "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj",
+        "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj",
         "packagesPath": "C:\\Users\\Imtiaz\\.nuget\\packages\\",
-        "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\obj\\",
+        "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Imtiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

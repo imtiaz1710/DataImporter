@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N0vkvaDVjd0r87GNFgFNuAZNJMPTdCH+dsW0RijEPPbS4Tn2XX6g/BQivBMTWAyu0Y6TyxiE7K2ZvxvLbs8T6Q==",
+  "dgSpecHash": "3reswnlkGANNlg7vDfynz8kOCzppcJ4aa0t30kbq1Ek/WtKfAH0R7mfmgJGoEnWA27zv0sYzzC1WhWLO2Y+RhQ==",
   "success": true,
-  "projectFilePath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj",
+  "projectFilePath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imtiaz\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Imtiaz\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

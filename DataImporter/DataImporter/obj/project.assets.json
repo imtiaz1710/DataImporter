@@ -10623,11 +10623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.csproj",
+      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter\\DataImporter.csproj",
       "projectName": "DataImporter",
-      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.csproj",
+      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter\\DataImporter.csproj",
       "packagesPath": "C:\\Users\\Imtiaz\\.nuget\\packages\\",
-      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\obj\\",
+      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imtiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10644,11 +10644,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\RepoForInterview\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj": {
-              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj"
+            "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj": {
+              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj"
             },
-            "G:\\RepoForInterview\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj": {
-              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj"
+            "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj": {
+              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj"
             }
           }
         }

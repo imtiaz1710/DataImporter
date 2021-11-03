@@ -5914,11 +5914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj",
+      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj",
       "projectName": "DataImporter.Data",
-      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj",
+      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj",
       "packagesPath": "C:\\Users\\Imtiaz\\.nuget\\packages\\",
-      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Data\\obj\\",
+      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imtiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

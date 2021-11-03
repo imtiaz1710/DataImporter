@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMvsoEyhSttu21gPjc7Ejbo/bEn3xiLqfyXQgjIH0loSwhk9W9xvFTcbW6uukAjxnZ9el0UokGZ7qm1d8r78qg==",
+  "dgSpecHash": "Ntb3BNu2zHao/haQv78XFs6OB9rkGzYgJHn7sz7bVMLB2qi+JzGdU1+NomLVZ9rz45qS0VhbAKx8vG4niglukg==",
   "success": true,
-  "projectFilePath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj",
+  "projectFilePath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imtiaz\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\Imtiaz\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

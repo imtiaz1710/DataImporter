@@ -6494,11 +6494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj",
+      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj",
       "projectName": "DataImporter.Excel",
-      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj",
+      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Excel\\DataImporter.Excel.csproj",
       "packagesPath": "C:\\Users\\Imtiaz\\.nuget\\packages\\",
-      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Excel\\obj\\",
+      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Excel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imtiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6515,11 +6515,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\RepoForInterview\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj": {
-              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj"
+            "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj": {
+              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Data\\DataImporter.Data.csproj"
             },
-            "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj": {
-              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj"
+            "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj": {
+              "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Membership\\DataImporter.Membership.csproj"
             }
           }
         }

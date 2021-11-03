@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mKix/KOWd6P5pLwUIqfe+6Noiua/5mXzG9KSiHMxLFlWcZF0jAxHJYG9f9/eEUkpqIFnjg+jBMY4C++JdZE/TA==",
+  "dgSpecHash": "NsiqAtYJ78pMHUeXHp2pQRTFSBDsUxYEFfAcd/FBhC4h4/e63DDU2tfJFeMji3D49ea5rYQaYXgjIGktQybG7g==",
   "success": true,
-  "projectFilePath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.csproj",
+  "projectFilePath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter\\DataImporter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imtiaz\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Imtiaz\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

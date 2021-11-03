@@ -22,3 +22,15 @@ G:\RepoForInterview\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter
 G:\RepoForInterview\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.dll
 G:\RepoForInterview\DataImporter\DataImporter.Data\obj\Debug\net5.0\ref\DataImporter.Data.dll
 G:\RepoForInterview\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.pdb
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\bin\Debug\net5.0\DataImporter.Data.deps.json
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\bin\Debug\net5.0\DataImporter.Data.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\bin\Debug\net5.0\ref\DataImporter.Data.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\bin\Debug\net5.0\DataImporter.Data.pdb
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.csprojAssemblyReference.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.AssemblyInfoInputs.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.AssemblyInfo.cs
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.csproj.CoreCompileInputs.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\ref\DataImporter.Data.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Data\obj\Debug\net5.0\DataImporter.Data.pdb

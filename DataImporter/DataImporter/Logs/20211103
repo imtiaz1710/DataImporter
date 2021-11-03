@@ -1,0 +1,54 @@
+[11/03/21 06:22:11 [Information]  Application Starting up
+[11/03/21 06:22:25 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:22:26 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:27:06 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:27:25 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:27:31 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:28:35 [Information]  Application Starting up
+[11/03/21 06:28:47 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:28:48 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:32:22 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[11/03/21 06:32:22 [Information] DataImporter.Controllers.AccountController User logged in.
+[11/03/21 06:33:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[11/03/21 06:33:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:33:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[11/03/21 06:33:16 [Information] DataImporter.Controllers.AccountController User logged out.
+[11/03/21 06:33:16 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:33:35 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:33:35 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:33:46 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[11/03/21 06:33:46 [Information] DataImporter.Controllers.AccountController User logged in.
+[11/03/21 06:36:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[11/03/21 06:36:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:36:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[11/03/21 06:36:40 [Information] DataImporter.Controllers.AccountController User logged out.
+[11/03/21 06:36:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:37:31 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:37:31 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:44:57 [Information]  Application Starting up
+[11/03/21 06:45:12 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:45:12 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:45:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:45:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:45:55 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[11/03/21 06:45:55 [Information] DataImporter.Controllers.AccountController User logged in.
+[11/03/21 06:50:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed out.
+[11/03/21 06:50:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:50:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+[11/03/21 06:50:30 [Information] DataImporter.Controllers.AccountController User logged out.
+[11/03/21 06:50:30 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:53:41 [Information]  Application Starting up
+[11/03/21 06:53:47 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 06:53:48 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 06:56:52 [Information] DataImporter.Controllers.AccountController User created a new account with password.
+[11/03/21 07:00:02 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 07:01:02 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[11/03/21 07:01:02 [Information] DataImporter.Controllers.AccountController User logged in.
+[11/03/21 07:52:31 [Information]  Application Starting up
+[11/03/21 08:05:32 [Information]  Application Starting up
+[11/03/21 08:40:57 [Information]  Application Starting up
+[11/03/21 08:41:31 [Information]  Application Starting up
+[11/03/21 08:41:40 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" was challenged.
+[11/03/21 08:41:41 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.External" signed out.
+[11/03/21 08:42:18 [Information] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler AuthenticationScheme: "Identity.Application" signed in.
+[11/03/21 08:42:18 [Information] DataImporter.Controllers.AccountController User logged in.

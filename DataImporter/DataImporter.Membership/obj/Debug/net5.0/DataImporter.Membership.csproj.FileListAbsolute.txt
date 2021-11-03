@@ -22,3 +22,15 @@ G:\RepoForInterview\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataIm
 G:\RepoForInterview\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.dll
 G:\RepoForInterview\DataImporter\DataImporter.Membership\obj\Debug\net5.0\ref\DataImporter.Membership.dll
 G:\RepoForInterview\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.pdb
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\bin\Debug\net5.0\DataImporter.Membership.deps.json
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\bin\Debug\net5.0\DataImporter.Membership.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\bin\Debug\net5.0\ref\DataImporter.Membership.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\bin\Debug\net5.0\DataImporter.Membership.pdb
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.csprojAssemblyReference.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.GeneratedMSBuildEditorConfig.editorconfig
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.AssemblyInfoInputs.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.AssemblyInfo.cs
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.csproj.CoreCompileInputs.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\ref\DataImporter.Membership.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Membership\obj\Debug\net5.0\DataImporter.Membership.pdb

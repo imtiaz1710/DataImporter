@@ -10,3 +10,15 @@ G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Common\obj\
 G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.dll
 G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Common\obj\Debug\net5.0\ref\DataImporter.Common.dll
 G:\DevskillDotNetCourse\aspnet-b5-personal\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.pdb
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\bin\Debug\net5.0\DataImporter.Common.deps.json
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\bin\Debug\net5.0\DataImporter.Common.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\bin\Debug\net5.0\ref\DataImporter.Common.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\bin\Debug\net5.0\DataImporter.Common.pdb
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.csprojAssemblyReference.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.AssemblyInfoInputs.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.AssemblyInfo.cs
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.csproj.CoreCompileInputs.cache
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\ref\DataImporter.Common.dll
+G:\RepoForInterview\DataImporter\DataImporter\DataImporter.Common\obj\Debug\net5.0\DataImporter.Common.pdb

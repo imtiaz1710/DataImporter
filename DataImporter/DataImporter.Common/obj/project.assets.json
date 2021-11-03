@@ -85,11 +85,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj",
+      "projectUniqueName": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj",
       "projectName": "DataImporter.Common",
-      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj",
+      "projectPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Common\\DataImporter.Common.csproj",
       "packagesPath": "C:\\Users\\Imtiaz\\.nuget\\packages\\",
-      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter.Common\\obj\\",
+      "outputPath": "G:\\RepoForInterview\\DataImporter\\DataImporter\\DataImporter.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imtiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
